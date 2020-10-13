@@ -1,2 +1,4 @@
 # search-in-array
-Simple search page
+A simple app that filters contacts
+
+Live preview: https://marsamak.github.io/search-in-array/

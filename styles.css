@@ -1,0 +1,25 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  --letterBgColor: white;
+}
+​
+h1 {
+  font-style: Bold;
+  color: black;
+}
+
+table td {
+    color: blue;
+}
+
+table tr.letter td{
+    color: black;
+    font-size: 200%;
+}
+
+.table-hover > tbody > tr.no-hover:hover > td,
+.table-hover > tbody > tr.no-hover:hover > th {
+    /* background-color: inherit;  WHY THIS DOESN'T WORK???*/
+    background-color: var(--letterBgColor);
+}
